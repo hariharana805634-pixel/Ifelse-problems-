@@ -1,5 +1,7 @@
+#x,y,z is a variables 
 x,y,z = 100,200,300
 
+#using if else condition statement 
 if ( x==y ):
     d = ( (x + y) *0.10 )
     print ("your discounted amount is : ", x+y+z-d)     
@@ -12,4 +14,5 @@ elif ( z==x ):
     print ("your discounted amount is : ", x+y+z-d)     
 else :
     print ("your amount is : ", x+y+z)
+
     print ("Sorry!, you have no discount")
